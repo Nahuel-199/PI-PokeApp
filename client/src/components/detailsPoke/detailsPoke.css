@@ -1,0 +1,198 @@
+.container-detail{
+    background-image: url('../../img/pokebolas2.jpg');
+    display: flex;
+    background-size: 123%;
+    height: 870px;
+}
+
+.details{
+    position: relative;
+width: 58%;
+padding: 20px;
+display: flex;
+flex-direction: row;
+align-items: center;
+margin-left: 22%;
+}
+
+.details .card-2{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background: rgb(255,255,255, 0.060);
+    margin: 20px;
+    border-radius: 20px;
+
+    box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+    transition: 0.5s;
+    backdrop-filter: blur(1.1rem);
+}
+
+.details .card-2 .circle-2 {
+    position: relative;
+    width: 100%;
+    height: 279px;
+    background: rgba(225, 107, 107, 0.62);
+    clip-path: circle(270px at center 0);
+    text-align: center;
+}
+
+.img-detail{
+    width: 50%;
+    height: 280px;
+}
+
+.details .card-2 .content-2 {
+    margin-top: -220px;
+} 
+
+.name-detail{
+    color: #666;
+    font-size: 50px;
+    font-weight: 600;
+    min-width: 100px;
+    margin: 0 auto;
+        margin-top: 0px;
+    margin-top: 29%;
+    height: 53px;
+}
+
+.type-poke{
+    display: flex;
+    margin-left: 0%;
+    margin-top: 10px;
+    justify-content: space-around;
+    font-size: 25px;
+    color: #9d2b2bb0;
+}
+
+
+.number-detail{
+    display: flex;
+    margin-left: 0%;
+    margin-top: 10px;
+    justify-content: space-around;
+    font-size: 22px;
+    color: #9d2b2bb0;
+}
+
+.life-detail{
+    display: flex;
+    margin-left: 0%;
+    margin-top: 10px;
+    justify-content: space-around;
+    font-size: 22px;
+    color: #9d2b2bb0;
+    font-weight: 600;
+}
+
+.defense-detail{
+    display: flex;
+    margin-left: 0%;
+    margin-top: 10px;
+    justify-content: space-around;
+    font-size: 22px;
+    color: #9d2b2bb0;
+    font-weight: 600;
+}
+
+.speed-detail{
+    display: flex;
+    margin-left: 0%;
+    margin-top: 10px;
+    justify-content: space-around;
+    font-size: 22px;
+    color: #9d2b2bb0;
+    font-weight: 600;
+}
+
+.heigth-detail{
+    display: flex;
+    margin-left: 0%;
+    margin-top: 10px;
+    justify-content: space-around;
+    font-size: 22px;
+    color: #9d2b2bb0;
+    font-weight: 600;
+}
+
+.weigth-detail{
+    display: flex;
+    margin-left: 0%;
+    margin-top: 10px;
+    justify-content: space-around;
+    font-size: 22px;
+    color: #9d2b2bb0;
+    font-weight: 600;
+}
+
+.button-detail {
+    --glow-color: rgb(255, 255, 255);
+    --glow-spread-color: rgba(117, 117, 117, 0.78);
+    --enhanced-glow-color: rgb(231, 206, 255);
+    --btn-color: rgb(213, 27, 27);
+    outline: none;
+    border: .25em solid var(--glow-color);
+    padding: 1em 3em;
+    color: var(--glow-color);
+    font-size: 16px;
+    font-weight: bold;
+    background-color: var(--btn-color);
+    border-radius: 1em;
+    outline: none;
+    box-shadow: 0 0 1em .25em var(--glow-color),
+           0 0 4em 1em var(--glow-spread-color),
+           inset 0 0 .75em .25em var(--glow-color);
+    text-shadow: 0 0 .5em var(--glow-color);
+    position: relative;
+    transition: all 0.3s;
+    height: 58px;
+margin-top: 60%;
+margin-left: -36%;
+   }
+   
+   .button-detail::after {
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 0;
+   
+    background-color: var(--glow-spread-color);
+    filter: blur(2em);
+    opacity: .7;
+    transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+   }
+   
+   .button-detail:hover {
+    color: var(--btn-color);
+    background-color: var(--glow-color);
+    box-shadow: 0 0 1em .25em var(--glow-color),
+           0 0 4em 2em var(--glow-spread-color),
+           inset 0 0 .75em .25em var(--glow-color);
+   }
+   
+   .button-detail:active {
+    box-shadow: 0 0 0.6em .25em var(--glow-color),
+           0 0 2.5em 2em var(--glow-spread-color),
+           inset 0 0 .5em .25em var(--glow-color);
+   }
+
+   .loading-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 58%;
+    margin-left: 112%;
+    width: 152%;
+    height: 230px;
+   }
+
+   .loading{
+    display: flex;
+    margin-left: 165%;
+    font-size: 40px;
+    font-weight: 900;
+    color: #a82727;
+   }

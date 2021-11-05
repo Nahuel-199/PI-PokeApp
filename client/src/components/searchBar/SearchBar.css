@@ -1,0 +1,45 @@
+.conteiner-search{
+    color: #c62d2d;
+width: 98%;
+height: 82px;;
+}
+
+.input-search{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin-left: 35%;
+margin-top: 30px;
+width: 30%;
+height: 28px;
+}
+
+.buton{
+    display: flex;
+    margin-left: 64%;
+    margin-top: 268px;
+}
+
+.boton1{
+    width: 49px;
+height: 32px;
+background: #c61f1f00;
+color: #a60a0a;
+cursor: pointer;
+}
+
+.buton2{
+    display: flex;
+margin-left: 66%;
+margin-top: -1px;
+background: transparent;
+}
+    
+.boton2{
+    color: #a60a0a;
+background: transparent;
+width: 49px;
+height: 31px;
+cursor: pointer
+}

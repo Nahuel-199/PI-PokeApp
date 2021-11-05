@@ -1,0 +1,44 @@
+.nav {
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(204, 36, 36));
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+  }
+  .Logo {
+    display: flex;
+    width: 5rem;
+    margin-right: 25%; 
+  }  
+  
+  .span-poke {
+    display: flex;
+    margin-left: -110%;;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  .poke-nav {
+    display: flex;
+    margin-right: 11%;
+  }
+  
+  .CreatePoke {
+    display: flex;
+    margin-right: 7%;
+  }
+  
+  .home-nav {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .create-nav {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    display: block ruby;
+  }
